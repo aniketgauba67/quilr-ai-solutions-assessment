@@ -1,0 +1,43 @@
+# Private assessment material, including copies outside the reference directory.
+/local_reference/
+FDE Assessment Questions*.pdf
+
+# Personal interview preparation; kept outside the repository.
+INTERVIEW_NOTES.md
+QUILR_INTERVIEW_NOTES.md
+
+# Local credentials and runtime state.
+.env
+.env.*
+!.env.example
+/var/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.log
+
+# Python environments, build outputs, and verification caches.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+/build/
+/dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+/htmlcov/
+
+# Local operating-system, editor, and coding-tool state.
+.DS_Store
+.idea/
+.vscode/
+.claude/
+.claude-flow/
+.cursor/
